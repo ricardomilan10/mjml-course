@@ -4,6 +4,24 @@
     *{
       box-sizing: border-box;
     }
+    .link-color{
+      color:#004c3f;
+      text-decoration:none;
+    }
+    .link-color:hover{
+      font-weight:bold;
+      text-decoration:underline;
+      color:#004c3f;
+    }
+    .small-link-color{
+      color:#008060;
+      text-decoration:none;
+    }
+    .small-link-color:hover{
+      font-weight:bold;
+      text-decoration:underline;
+      color:#008060;
+    }
   </mj-style>
   <mj-style inline="">
     .header{
@@ -13,6 +31,7 @@
       padding-left: 30px;
       padding-right: 30px;
     }
+
   </mj-style>
 </mj-head>
   <mj-body background-color="#f2f2f2">
@@ -21,7 +40,7 @@
     </mj-raw>
     <mj-section css-class="header section-padding">
       <mj-column>
-        <mj-image alt="shopify logo" href="https://shopify.com" width="121px" align="left" src="/assets/logo.png">
+        <mj-image alt="shopify logo" href="https://shopify.com" width="121px" align="left" src="/assets/logo.png"/>
       </mj-column>
     </mj-section>
 
@@ -42,7 +61,38 @@
 
     <mj-section>
       <mj-column>
-        <mj-image src="/assets/3-lines.png" padding="0">
+        <mj-image src="/assets/3-lines.png" padding="0"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column >
+        <mj-image src="/assets/image.jpg" alt="" />
+      </mj-column>
+      <mj-column>
+
+        <mj-text color="#004c3f" font-size="24px" font-weight="bold" padding-bottom="20px">
+          <a href="https://shopify.com/blog" class="link-color"> Find more ways to sell with pre-orders</a>
+        </mj-text>
+
+        <mj-text color="#004c3f" font-size="16px" font-weight="normal" line-height="20px" padding-bottom="20px">
+          We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a deposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products
+        </mj-text>
+        
+        <mj-text color="#008060" font-size="14px" font-weight="bold" line-height="20px" padding-bottom="20px">
+          <a href="https://shopify.com/blog" class="small-link-color">Learn more</a>
+        </mj-text>
+          
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+    <!-- 3 Line Divider -->
+    </mj-raw>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="/assets/3-lines.png" padding="0"/>
       </mj-column>
     </mj-section>
 
